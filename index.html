@@ -159,7 +159,7 @@ h3{font-size:clamp(1.15rem, 2vw, 1.35rem)}
 
 /* Profile strip */
 .strip{background:var(--color-white); border-bottom:1px solid var(--color-border)}
-.strip-inner{ padding: auto 20px; display:grid; grid-template-columns: 1.2fr .8fr; gap:40px; padding:42px 0; align-items:center}
+.strip-inner{ padding: 0 20px; display:grid; grid-template-columns: 1.2fr .8fr; gap:40px; padding:42px 0; align-items:center}
 .profile-card{
   display:flex; gap:16px; align-items:center; background:var(--color-ivory); border:1px solid var(--color-border); border-radius:14px; padding:16px
 }
@@ -278,7 +278,7 @@ footer{background:var(--color-white); border-top:1px solid var(--color-border)}
 
 /* Animations */
 .reveal{opacity:0; transform:translateY(10px); transition: opacity .6s ease, transform .6s ease}
-.reveal.in{opacity:1; transform:none; padding: auto 20px;}
+.reveal.in{opacity:1; transform:none; padding: 0 20px;}
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .reveal{opacity:1; transform:none}
